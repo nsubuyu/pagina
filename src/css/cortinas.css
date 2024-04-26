@@ -1,0 +1,154 @@
+.picture-overlay-data {
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #09031D 20%, #2B1A6600 100%);
+    opacity: 0.8;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.paddingCenter {
+    padding: 4.22rem 0;
+}
+
+.separatorColorProduct {
+    background-color: var(--bs-dark-blue);
+    padding: 8rem 0;
+    position: relative;
+    width: 8%;
+}
+
+.containerDescription {
+    color: var(--bs-white);
+    margin-left: -60px;
+}
+
+.textFont {
+    font-weight: bold;
+    font-size: 2.63rem;
+}
+
+.textColorBlue {
+    color: var(--bs-dark-blue);
+}
+
+.texttitulo {
+    font-size: 61px;
+    color: var(--bs-dark-blue);
+    font-weight: bold;
+
+}
+
+.textodesc {
+    line-height: 3rem;
+}
+
+.textodesc2 {
+    line-height: 2rem;
+}
+
+.texto_2 {
+    color: var(--bs-dark-blue);
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.textopie {
+    color: var(--bs-dark-blue);
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.textopie2 {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.texto_tittfica {
+    color: var(--bs-dark-blue);
+    font-size: 2rem;
+
+}
+
+
+
+.duela_pinturas {
+    height: 30rem;
+}
+
+
+
+
+.transformed {
+    /* idéntico a rotateZ(45deg); */
+    transform: rotate(45deg);
+    background-color: blue;
+}
+
+.pidecotiza {
+    background: var(--bs-dark-blue);
+
+
+
+}
+
+.padre {
+    position: relative;
+}
+
+.transfom {
+    padding-bottom: 0;
+    height: 1813px;
+    background: linear-gradient(12deg, white 28%, var(--bs-light-green) -25%, var(--bs-light-green) 52%, var(--bs-dark-blue) 48%, var(--bs-dark-blue) 56%, white 28%);
+    position: absolute;
+    top: -120%;
+    z-index: -1;
+
+}
+
+.trabajador {
+    height: 793;
+    object-fit: scale-down;
+}
+
+.letraslineas {
+    color: white;
+    font-size: 35px;
+}
+
+
+.first {
+    height: 4729px;
+    width: 100%;
+    background: linear-gradient(290deg, white 13%, #F3F3F3 -3%, #F3F3F3 19%, white 17%);
+    z-index: -3;
+    position: absolute;
+
+
+}
+
+.second {
+    height: 3627px;
+    width: 100%;
+    background: linear-gradient(71deg, white 47%, #F3F3F3 20%, #F3F3F3 54%, white 50%);
+    z-index: -3;
+    position: absolute;
+}
+
+.lineas_fondo {
+    position: absolute;
+}
+
+.cortinasp {
+    font-size: 30px;
+}
+
+.cortinast {
+    font-size: 55px;
+}
+
+div {
+    border: solid #09031D;
+}

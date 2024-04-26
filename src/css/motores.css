@@ -1,0 +1,16 @@
+.cotizar {
+    background-color: var(--bs-light-green);
+    border-radius: 60px;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 1rem 11rem;
+}
+
+.motoresh2 {
+    color: var(--bs-dark-blue);
+    font-size: 40px;
+}
+
+.motoresp {
+    font-size: 25px;
+}

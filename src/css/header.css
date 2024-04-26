@@ -1,0 +1,97 @@
+.background-header{
+    background-color: var(--bs-dark-blue-transparent);
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.img-logo{
+    height: 35%;
+    width: 50%;
+    padding-left: 75px;
+}
+.header-elementor ul {
+    padding-right: 75px;
+}
+.header-elementor ul li{
+    width: auto;
+    margin: 10px 30px 10px 30px;
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+.subheader-elementor ul li{
+    color: #000;
+    font-weight: 500;
+  }
+  
+.subheader-elementor ul{
+  background-color:  var(--bs-white);
+  margin-top: 0.5rem;
+  border-radius: 1vh;
+}
+
+.back-header{
+    background-color: var( --bs-dark-blue);
+    height: 9.5rem;
+}
+
+ /******************* Mobile **************************/
+.elementor-mobile-header>ul:nth-child(1){
+    padding-top: 3rem;
+}
+.elementor-mobile-header{
+    width: 100%;
+    height: 100vh;
+    transition-timing-function: cubic-bezier(.4,0,1,1);
+}
+.header-open{
+    background-color: rgba(0,0,0,.9);
+    color: rgb(209 213 219/1);
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    overflow: scroll;
+    padding-bottom: 1.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1.75rem;
+    position: fixed;
+    top: 0;
+    transition-duration: .3s;
+    z-index: 4 !important;
+}
+.header-close{
+    display: none;
+    position: absolute;
+    top: 0;
+    transition-duration: .5s;
+}
+.icon-hamburguer{
+    background-color: var(--bs-dark-green);
+    color: var(--bs-white);
+    padding: 5px 10px;
+}
+
+/************** media queries *********************/
+@media (max-width: 576px) {
+    .header-pc {
+      display: none !important;
+    }
+    .icon-hamburguer{
+      display: block !important;
+      z-index: 5 !important;
+    }
+    .header-elementor{
+        padding-top: 0;
+    }
+    .header-elementor ul{
+        padding-right: 0px;
+    }
+    .img-logo{
+        width: 40%;
+        padding-left: 0px;
+    }
+}
+
+@media (min-width: 1400px){
+    .back-header{
+        height: 12.5rem;
+    }
+  }

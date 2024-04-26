@@ -1,0 +1,16 @@
+.footer-font{
+    color: var(--bs-white);
+    font-size: .75rem;
+    line-height: 1rem;
+}
+
+.footer-section-second{
+    background-color: var(--bs-dark-blue);
+}
+
+@media (max-width: 640px){
+    .footer-font{
+        font-size: .5rem;
+        line-height: .6rem;
+    }
+}

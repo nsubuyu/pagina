@@ -1,0 +1,34 @@
+.selector-red{
+    color: var(--bs-red);
+}
+.form-control:focus{
+    border-color: var(--bs-gray);
+}
+
+.form-contact>div>label{
+    font-size: 2.5vh;
+    font-weight:600;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.form-contact>div>input, .form-contact>div>textarea{
+    background-color: var(--bs-light-gray);
+    font-size: 2.5vh;
+    width: 100%;
+}
+
+.form-contact>button{
+    background-color: var(--bs-light-blue);
+    border: none;
+    border-radius: 20px;
+    color: var(--bs-white);
+    padding: 10px 30px 10px 30px;
+    width: 100%;
+}
+
+@media (max-width: 640px){
+    .form-contact{
+        width: 100% !important;
+    }
+}

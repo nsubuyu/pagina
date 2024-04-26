@@ -1,0 +1,10 @@
+.etitulo {
+    font-size: 75px;
+    font-weight: bold;
+    color: var(--bs-dark-blue);
+}
+
+
+.elevadoresp {
+    font-size: 30px;
+}
