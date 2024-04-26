@@ -73,6 +73,10 @@
 }
 
 
+.bajarletras {
+    margin-top: 94px;
+}
+
 
 .duela_pinturas {
     height: 30rem;
@@ -96,12 +100,13 @@
 
 .padre {
     position: relative;
+
 }
 
 .transfom {
     padding-bottom: 0;
     height: 1813px;
-    background: linear-gradient(12deg, white 28%, var(--bs-light-green) -25%, var(--bs-light-green) 52%, var(--bs-dark-blue) 48%, var(--bs-dark-blue) 56%, white 28%);
+    background: linear-gradient(11deg, white 5%, var(--bs-light-green) 6%, var(--bs-light-green) 32%, var(--bs-dark-blue) 32%, var(--bs-dark-blue) 36%, white 36%);
     position: absolute;
     top: -120%;
     z-index: -1;
@@ -109,8 +114,8 @@
 }
 
 .trabajador {
-    height: 793;
-    object-fit: scale-down;
+    height: 900px;
+    width: 900px;
 }
 
 .letraslineas {
@@ -122,7 +127,7 @@
 .first {
     height: 4729px;
     width: 100%;
-    background: linear-gradient(290deg, white 13%, #F3F3F3 -3%, #F3F3F3 19%, white 17%);
+    background: linear-gradient(280deg, white 8%, #F3F3F3 9%, #F3F3F3 22%, white 23%);
     z-index: -3;
     position: absolute;
 
@@ -132,7 +137,7 @@
 .second {
     height: 3627px;
     width: 100%;
-    background: linear-gradient(71deg, white 47%, #F3F3F3 20%, #F3F3F3 54%, white 50%);
+    background: linear-gradient(72deg, white 43%, #F3F3F3 44%, #F3F3F3 55%, white 57%);
     z-index: -3;
     position: absolute;
 }
@@ -151,4 +156,31 @@
 
 div {
     border: solid #09031D;
+}
+
+.contworker {
+    margin-bottom: -92px;
+}
+
+.muestrac {
+    height: 600px;
+    width: 600px;
+
+}
+
+.spintando {
+    margin-bottom: -155;
+}
+
+
+.duelas {
+    margin-top: -96px
+}
+
+.duelasp {
+    font-size: 34px;
+}
+
+.seccionlineas {
+    min-height: 800px;
 }

@@ -18,7 +18,7 @@ const Cortinas = ({ setOther }) => {
 
     <>
       <div className="padre">
-        <div className="lineas_fondo w-100 h-100 ">
+        <div className="lineas_fondo w-100 h-100">
           <div className="first w-100">
 
 
@@ -46,9 +46,9 @@ const Cortinas = ({ setOther }) => {
         </div>
       </div>
 
-      <div className="container">
-        <figure>
-          <img className="w-100 h-100" src={img2} alt="Cortinas Métalicas" />
+      <div className="container d-flex justify-content-end">
+        <figure >
+          <img className="muestrac" src={img2} alt="Cortinas Métalicas" />
         </figure>
       </div>
 
@@ -131,7 +131,7 @@ const Cortinas = ({ setOther }) => {
 
 
 
-      <div className="container d-flex gap-3">
+      <div className="container d-flex gap-3 duelas">
 
         <figure className=" w-100 " >
           <img className="w-100 h-100" src={img5} alt="Cortinas Métalicas" />
@@ -139,7 +139,7 @@ const Cortinas = ({ setOther }) => {
 
 
         <div className=" d-flex align-items-center">
-          <p className="motoresp" >
+          <p className="duelasp" >
             Tenemos una amplia variedad de diseños ​de cortinas metálicas para
             satisfacer las ​necesidades de tus clientes.
           </p>
@@ -157,18 +157,18 @@ const Cortinas = ({ setOther }) => {
       </div>
       <div className="container">
         <figure>
-          <img className="w-100 h-100" src={img7} alt="Cortinas Métalicas" />
+          <img className="w-100 h-100 spintando" src={img7} alt="señorpintando" />
         </figure>
       </div>
 
 
-      <section className=" padre">
+      <section className=" padre overflow-hidden seccionlineas">
         <div className="transfom w-100"></div>
 
-        <div className="container d-flex gap-3">
+        <div className="container d-flex gap-3 ">
 
 
-          <div className="d-flex align-items-center" >
+          <div className="d-flex align-items-center bajarletras" >
             <div>
               <p className="letraslineas">
                 ¡En DICET cuentas con toda la ​asesoría necesaria para que puedas
@@ -179,7 +179,7 @@ const Cortinas = ({ setOther }) => {
           </div>
 
 
-          <div >
+          <div className="contworker">
             <figure>
               <img
                 className="trabajador"
