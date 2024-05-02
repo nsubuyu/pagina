@@ -48,7 +48,7 @@ const Cortinas = ({ setOther }) => {
 
       <div className="container d-flex justify-content-end">
         <figure >
-          <img className="muestrac" src={img2} alt="Cortinas Métalicas" />
+          <img className="muestrac" src={img2} alt="muestra del material " />
         </figure>
       </div>
 
@@ -59,7 +59,7 @@ const Cortinas = ({ setOther }) => {
               <img
                 className="w-100 h-100"
                 src={img1}
-                alt="Cortinas Métalicas"
+                alt="muestra de la persiana"
               />
             </figure>
           </div>
