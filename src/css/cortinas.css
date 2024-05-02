@@ -154,9 +154,7 @@
     font-size: 55px;
 }
 
-div {
-    border: solid #09031D;
-}
+
 
 .contworker {
     margin-bottom: -92px;
@@ -183,4 +181,16 @@ div {
 
 .seccionlineas {
     min-height: 800px;
+}
+
+/* Estilos para pantallas con ancho igual o mayor a 768px */
+@media screen and (max-width: 500px) {
+
+
+    .texttitulo {
+        font-size: 50px;
+        color: var(--bs-dark-blue);
+        font-weight: bold;
+
+    }
 }
