@@ -13,7 +13,7 @@ const Motores = ({ setOther }) => {
 
   return (
     <>
-      <section className="marginTop  mb-5">
+      <section className="marginproductos  mb-5">
         <figure>
           <img src={portada} className=" w-100 h-100 " alt=" portada" />
 
@@ -27,36 +27,38 @@ const Motores = ({ setOther }) => {
 
       <section className="my-5">
 
-        <div className="container d-flex gap-3">
-          <div className="imagen_terjeta">
-            <figure className="w-100 h-100">
-              <img
-                className="w-100 h-100"
-                src={img1}
-                alt="Cortinas Métalicas"
-              />
-            </figure>
-          </div>
+        <div className="container d-flex gap-3 telefono separador">
+          <div className=" d-flex gap-3 mb-5  telefono-reverse">
+            <div className="imagen_terjeta">
+              <figure className="w-100 h-100">
+                <img
+                  className="w-100 h-100"
+                  src={img1}
+                  alt="Cortinas Métalicas"
+                />
+              </figure>
+            </div>
 
 
-          <div className=" w-50 d-flex align-items-center flex-wrap ">
-            <div>
-              <h2 className='motoresh2'>
-                Motores Tubulares
-              </h2>
-              <p className=" motoresp">
-                Uno de nuestros motores más ​vendidos en Guatemala y ​Centroamérica,
-                enfocado a ​distribuidores de toldos y sombras.
-              </p>
+            <div className=" w-50 d-flex align-items-center telefono-w-100">
+              <div>
+                <h2 className='texttitulo text-wrap text-center tptelefono'>
+                  Motores Tubulares
+                </h2>
+                <p className=" motoresp">
+                  Uno de nuestros motores más ​vendidos en Guatemala y ​Centroamérica,
+                  enfocado a ​distribuidores de toldos y sombras.
+                </p>
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="container d-flex gap-3">
+        <div className="container d-flex gap-3 telefono separador">
 
-          <div className=" w-50 d-flex align-items-center flex-wrap ">
+          <div className=" w-50 d-flex align-items-center telefono-w-100">
             <div>
-              <h2 className='motoresh2'>
+              <h2 className='texttitulo text-wrap text-center tptelefono'>
                 Motores LiftMaster
               </h2>
               <p className=" motoresp">
@@ -82,39 +84,43 @@ const Motores = ({ setOther }) => {
 
 
 
-        <div className="container d-flex gap-3">
-          <div className="imagen_terjeta">
-            <figure className="w-100 h-100">
-              <img
-                className="w-100 h-100"
-                src={img3}
-                alt="Cortinas Métalicas"
-              />
-            </figure>
-          </div>
+        <div className="container d-flex gap-3 telefono  separador">
+          <div className=" d-flex gap-3 mb-5  telefono-reverse">
+            <div className="imagen_terjeta">
+              <figure className="w-100 h-100">
+                <img
+                  className="w-100 h-100"
+                  src={img3}
+                  alt="Cortinas Métalicas"
+                />
+              </figure>
+            </div>
 
 
-          <div className=" w-50 d-flex align-items-center flex-wrap ">
-            <div>
-              <h2 className='motoresh2'>
-                Motores Nice
-              </h2 >
-              <p className=" motoresp">
-                Respaldo y modernidad italiana en el ​sector de automatización y ​seguridad en el hogar,
-                con una ​amplia oferta de soluciones ​integradas y conectadas para ​automatismos de puertas de garaje,
-                sistemas para protecciones solares,
-                sistemas de aparcamiento, ​aplicaciones residenciales, ​comerciales e industriales.
-              </p>
+            <div className=" w-50 d-flex align-items-center telefono-w-100 ">
+              <div>
+                <h2 className='texttitulo text-wrap text-center tptelefono'>
+                  Motores Nice
+                </h2 >
+                <p className=" motoresp ">
+                  Respaldo y modernidad italiana en el ​sector de automatización y ​seguridad en el hogar,
+                  con una ​amplia oferta de soluciones ​integradas y conectadas para ​automatismos de puertas de garaje,
+                  sistemas para protecciones solares,
+                  sistemas de aparcamiento, ​aplicaciones residenciales, ​comerciales e industriales.
+                </p>
+              </div>
             </div>
           </div>
         </div>
 
 
 
-        <div className="container d-flex gap-3">
-          <div className=" w-50 d-flex align-items-center flex-wrap ">
+        <div className="container d-flex gap-3 telefono separador">
+
+          <div className=" w-50 d-flex align-items-center telefono-w-100 ">
+
             <div>
-              <h2 className='motoresh2'>
+              <h2 className='texttitulo text-wrap text-center tptelefono'>
                 Motores RIB
               </h2>
               <p className=" motoresp">
@@ -136,38 +142,39 @@ const Motores = ({ setOther }) => {
 
 
 
+
         </div>
 
-        <div className="container d-flex gap-3">
-
-          <div className="imagen_terjeta">
-            <figure className="w-100 h-100">
-              <img
-                className="w-100 h-100"
-                src={img5}
-                alt="Cortinas Métalicas"
-              />
-            </figure>
-          </div>
-          <div className=" w-50 d-flex align-items-center flex-wrap ">
-            <div>
-              <h2 className='motoresh2'>
-                Motores Jielong
-              </h2>
-              <p className=" motoresp">
-                Una de las opciones más rentables ​para ofrecer a tus clientes por su alta ​resistencia y relación costo-beneficio.
-                Desarrolladas para la automatización ​de cortinas metálicas.
-              </p>
+        <div className="container d-flex gap-3 telefono separador">
+          < div className="d-flex gap-3 mb-5  telefono-reverse">
+            <div className="imagen_terjeta">
+              <figure className="w-100 h-100">
+                <img
+                  className="w-100 h-100"
+                  src={img5}
+                  alt="Cortinas Métalicas"
+                />
+              </figure>
+            </div>
+            <div className=" w-50 d-flex align-items-center telefono-w-100 ">
+              <div>
+                <h2 className="texttitulo text-wrap text-center tptelefono">
+                  Motores Jielong
+                </h2>
+                <p className=" motoresp">
+                  Una de las opciones más rentables ​para ofrecer a tus clientes por su alta ​resistencia y relación costo-beneficio.
+                  Desarrolladas para la automatización ​de cortinas metálicas.
+                </p>
+              </div>
             </div>
           </div>
 
-
         </div>
 
 
 
-      </section>
-      <div className="container mb-5" >
+      </section >
+      <div className="container mb-5 " >
         <div className=" d-flex justify-content-center ">
           <div className=" cotizar text-white ">
             <p className="mb-0"> ¡Cotiza hoy mismo el tuyo! </p>
