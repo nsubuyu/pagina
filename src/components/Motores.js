@@ -177,8 +177,8 @@ const Motores = ({ setOther }) => {
       <div className="container mb-5 " >
         <div className=" d-flex justify-content-center ">
           <div className=" cotizar text-white ">
-            <p className="mb-0"> ¡Cotiza hoy mismo el tuyo! </p>
-            <p className=" text-center mb-0"> 4083-1699</p>
+            <p className=" letraspie"> ¡Cotiza hoy mismo el tuyo! </p>
+            <p className=" text-center "> 4083-1699</p>
           </div>
         </div>
       </div>
