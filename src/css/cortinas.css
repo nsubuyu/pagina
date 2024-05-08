@@ -40,9 +40,7 @@
 
 }
 
-.textodesc {
-    line-height: 3rem;
-}
+
 
 .textodesc2 {
     line-height: 2rem;
@@ -150,9 +148,7 @@
     font-size: 30px;
 }
 
-.cortinast {
-    font-size: 55px;
-}
+
 
 
 
@@ -183,15 +179,22 @@
     min-height: 800px;
 }
 
+.marginproductos {
+    margin-top: 9rem;
+}
+
+@media screen and (min-width:1366px) {
+    .marginproductos {
+        margin-top: 6rem;
+    }
+}
+
 /* Estilos para pantallas con ancho igual o mayor a 768px */
 @media screen and (max-width: 500px)and (min-width:300px) {
 
 
-    .texttitulo {
-        font-size: 40px;
-        color: var(--bs-dark-blue);
-        font-weight: bold;
-
+    .marginproductos {
+        margin-top: 5.5rem;
     }
 
     .telefono {
@@ -231,31 +234,16 @@
     }
 
     .tptelefono {
-        font-size: 2rem;
+        font-size: 1.5em;
         color: var(--bs-dark-blue);
-        font-weight: bold;
+        font-weight: 700 !important;
+        text-transform: uppercase !important;
 
 
     }
 
 
-    .first {
-        height: 4729px;
-        width: 100%;
-        background: linear-gradient(280deg, white 8%, #F3F3F3 9%, #F3F3F3 22%, white 23%);
-        z-index: -3;
-        position: absolute;
 
-
-    }
-
-    .second {
-        height: 3627px;
-        width: 100%;
-        background: linear-gradient(72deg, white 43%, #F3F3F3 44%, #F3F3F3 55%, white 57%);
-        z-index: -3;
-        position: absolute;
-    }
 
     .bajarletras {
         margin-top: 242px;
@@ -271,16 +259,32 @@
     }
 
     .cortinasp {
-        font-size: 25px;
+        font-size: 20px;
         width: 100%;
     }
 
     .duelasp {
-        font-size: 25px;
+        font-size: 20px;
         width: 100%;
     }
 
+    .duelas {
+        gap: 0 !important;
+    }
 
+    .duelas>figure {
+        margin-bottom: 0;
+    }
+
+    .textopie2 {
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .first {
+        height: 4500px;
+    }
 
 
 

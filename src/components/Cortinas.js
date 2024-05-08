@@ -29,7 +29,7 @@ const Cortinas = ({ setOther }) => {
         </div>
       </div>
 
-      <section className="marginTop  mb-5">
+      <section className="marginproductos  mb-5">
         <figure>
           <img src={portada} className=" w-100 h-100 " alt=" portada" />
 
@@ -65,14 +65,14 @@ const Cortinas = ({ setOther }) => {
           </div>
 
           <div className=" w-50 d-flex align-items-center telefono-w-100 ">
-            <h2 className="textodesc ">
-              <p>Ofrecemos a distribuidores y
-                mayoristas una amplia
-                variedad de materiales y
-                accesorios para fabricar
-                cortinas metálicas manuales y
-                motorizadas.</p>
-            </h2>
+
+            <p className=" cortinasp ">Ofrecemos a distribuidores y
+              mayoristas una amplia
+              variedad de materiales y
+              accesorios para fabricar
+              cortinas metálicas manuales y
+              motorizadas.</p>
+
           </div>
         </div>
 
@@ -80,7 +80,7 @@ const Cortinas = ({ setOther }) => {
           <h3 className="texto_2  text-center tptelefono"> ¡Ofrece a tus clientes lo mejor!</h3>
         </div>
 
-        <div className="paddingCenter container d-flex telefono gap-4">
+        <div className=" my-5 container d-flex telefono gap-4">
 
           <div className="w-50 telefono-w-100">
             <figure>
@@ -126,7 +126,7 @@ const Cortinas = ({ setOther }) => {
 
 
 
-      <section className="cotainer">
+      <section className="container">
 
 
         <div className="d-flex justify-content-center estilost">
@@ -202,7 +202,7 @@ const Cortinas = ({ setOther }) => {
 
 
       <div className="pidecotiza p-3">
-        <h3 className="text-center textopie2"> ¡Cotiza hoy mismo! <br></br> 4083-1699</h3>
+        <h3 className="text-center textopie2 "> ¡Cotiza hoy mismo! <br></br> 4083-1699</h3>
       </div>
     </>
   );

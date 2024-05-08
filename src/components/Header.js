@@ -102,7 +102,7 @@ const Header = ({ varOther, setOther }) => {
                                             <NavLink to="/motores">Motores</NavLink>
                                         </li>
                                         <li onClick={heandleHead} className='fw-bold py-2'>
-                                            <NavLink to="/">Elevadores de Parqueo</NavLink>
+                                            <NavLink to="/elevadores">Elevadores de Parqueo</NavLink>
                                         </li>
                                         <li onClick={heandleHead} className='fw-bold py-2'>
                                             <NavLink to="/">Toldos y Sombras</NavLink>

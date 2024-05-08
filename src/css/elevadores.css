@@ -8,3 +8,21 @@
 .elevadoresp {
     font-size: 30px;
 }
+
+
+@media screen and (max-width: 500px)and (min-width:300px) {
+
+
+    .elevadoresp {
+        font-size: 22px;
+        width: 100%;
+    }
+
+    .etitulo {
+        font-size: 1.5em;
+        color: var(--bs-dark-blue);
+        font-weight: 700 !important;
+        text-transform: uppercase !important;
+    }
+
+}
