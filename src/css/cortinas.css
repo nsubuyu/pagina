@@ -184,13 +184,81 @@
 }
 
 /* Estilos para pantallas con ancho igual o mayor a 768px */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px)and (min-width:300px) {
 
 
     .texttitulo {
-        font-size: 50px;
+        font-size: 40px;
         color: var(--bs-dark-blue);
         font-weight: bold;
+
+    }
+
+    .telefono {
+        flex-wrap: wrap;
+    }
+
+    .muestrac {
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .telefono-w-100 {
+
+        width: 100% !important;
+    }
+
+    .contworker {
+        margin-bottom: 0px;
+    }
+
+    .trabajador {
+        height: 100%;
+        width: 100%;
+    }
+
+
+    .telefono-reverse {
+        flex-wrap: wrap-reverse;
+
+    }
+
+
+    .estilost {
+
+        padding-bottom: 3rem;
+    }
+
+    .tptelefono {
+        font-size: 3rem;
+        color: var(--bs-dark-blue);
+        font-weight: bold;
+
+
+    }
+
+
+    .first {
+        height: 4729px;
+        width: 100%;
+        background: linear-gradient(280deg, white 8%, #F3F3F3 9%, #F3F3F3 22%, white 23%);
+        z-index: -3;
+        position: absolute;
+
+
+    }
+
+    .second {
+        height: 3627px;
+        width: 100%;
+        background: linear-gradient(72deg, white 43%, #F3F3F3 44%, #F3F3F3 55%, white 57%);
+        z-index: -3;
+        position: absolute;
+    }
+
+    .letraslineas {
+        font-size: 30px;
 
     }
 }

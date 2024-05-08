@@ -38,13 +38,13 @@ const Cortinas = ({ setOther }) => {
       </section>
 
 
-      <div className="container">
-        <div className="row">
-          <div className="col-md-6 mx-auto">
-            <h2 className="texttitulo text-wrap text-center">De todo para Cortinas Metálicas</h2>
-          </div>
+      <section className="container">
+        <div className="d-flex justify-content-center ">
+
+          <h2 className="texttitulo text-wrap text-center ">De todo para Cortinas Metálicas</h2>
+
         </div>
-      </div>
+      </section>
 
       <div className="container d-flex justify-content-end">
         <figure >
@@ -52,8 +52,8 @@ const Cortinas = ({ setOther }) => {
         </figure>
       </div>
 
-      <section className="my-5">
-        <div className="container d-flex gap-3 mb-5">
+      <section className=" container my-5">
+        <div className=" d-flex gap-3 mb-5  telefono-reverse">
           <div className="imagen_terjeta">
             <figure className="w-100 h-100">
               <img
@@ -64,8 +64,8 @@ const Cortinas = ({ setOther }) => {
             </figure>
           </div>
 
-          <div className=" w-50 d-flex align-items-center flex-wrap ">
-            <h2 className="textodesc">
+          <div className=" w-50 d-flex align-items-center telefono-w-100 ">
+            <h2 className="textodesc ">
               Ofrecemos a distribuidores y <br></br>​mayoristas una amplia <br></br> ​variedad de
               materiales y <br></br> ​accesorios para fabricar <br></br> ​cortinas metálicas
               manuales y <br></br> ​motorizadas.
@@ -74,12 +74,12 @@ const Cortinas = ({ setOther }) => {
         </div>
 
         <div className="container mt-5 ">
-          <h3 className="texto_2  text-center"> ¡Ofrece a tus clientes lo mejor!</h3>
+          <h3 className="texto_2  text-center tptelefono"> ¡Ofrece a tus clientes lo mejor!</h3>
         </div>
 
-        <div className="paddingCenter container d-flex gap-4">
+        <div className="paddingCenter container d-flex telefono gap-4">
 
-          <div className="w-50">
+          <div className="w-50 telefono-w-100">
             <figure>
               <img
                 className="w-100 h-100"
@@ -98,7 +98,7 @@ const Cortinas = ({ setOther }) => {
           </div>
 
 
-          <div className="w-50">
+          <div className="w-50 telefono-w-100">
             <figure >
               <img
                 className="w-100 h-100"
@@ -118,33 +118,36 @@ const Cortinas = ({ setOther }) => {
         </div>
       </section>
 
-      <div className="container">
-        <div className="row">
-          <div className="col-md-6 mx-auto">
-            <h2 className=" texto_2  ">Estilos de duelas</h2>
+
+
+
+
+
+      <section className="cotainer">
+
+
+        <div className="d-flex justify-content-center estilost">
+          <h2 className=" texto_2 tptelefono">Estilos de duelas</h2>
+        </div>
+
+
+        <div className=" d-flex gap-3 duelas telefono">
+
+
+
+          <figure className=" w-100 " >
+            <img className="w-100 h-100" src={img5} alt="Cortinas Métalicas" />
+          </figure>
+
+
+          <div className=" d-flex align-items-center">
+            <p className="duelasp" >
+              Tenemos una amplia variedad de diseños ​de cortinas metálicas para
+              satisfacer las ​necesidades de tus clientes.
+            </p>
           </div>
         </div>
-      </div>
-
-
-
-
-
-
-      <div className="container d-flex gap-3 duelas">
-
-        <figure className=" w-100 " >
-          <img className="w-100 h-100" src={img5} alt="Cortinas Métalicas" />
-        </figure>
-
-
-        <div className=" d-flex align-items-center">
-          <p className="duelasp" >
-            Tenemos una amplia variedad de diseños ​de cortinas metálicas para
-            satisfacer las ​necesidades de tus clientes.
-          </p>
-        </div>
-      </div>
+      </section>
 
       <div className="container">
 
@@ -162,10 +165,10 @@ const Cortinas = ({ setOther }) => {
       </div>
 
 
-      <section className=" padre overflow-hidden seccionlineas">
-        <div className="transfom w-100"></div>
+      <section className=" padre overflow-hidden seccionlineas ">
+        <div className="transfom w-100 "></div>
 
-        <div className="container d-flex gap-3 ">
+        <div className="container d-flex gap-3 telefono ">
 
 
           <div className="d-flex align-items-center bajarletras" >
@@ -173,7 +176,7 @@ const Cortinas = ({ setOther }) => {
               <p className="letraslineas">
                 ¡En DICET cuentas con toda la ​asesoría necesaria para que puedas
                 ofrecer la mejor opción a tus clientes! </p>
-              <p className="letraslineas"> Con nosotros encuentras de todo ​para Cortinas Metálicas. </p>
+              <p className="letraslineas "> Con nosotros encuentras de todo ​para Cortinas Metálicas. </p>
 
             </div>
           </div>
@@ -184,7 +187,7 @@ const Cortinas = ({ setOther }) => {
               <img
                 className="trabajador"
                 src={img8}
-                alt="Cortinas Métalicas"
+                alt="trabajador"
               />
             </figure>
 
