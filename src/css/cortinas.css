@@ -210,7 +210,7 @@
     }
 
     .contworker {
-        margin-bottom: 0px;
+        margin-bottom: -20px;
     }
 
     .trabajador {
@@ -231,7 +231,7 @@
     }
 
     .tptelefono {
-        font-size: 3rem;
+        font-size: 2rem;
         color: var(--bs-dark-blue);
         font-weight: bold;
 
@@ -257,8 +257,32 @@
         position: absolute;
     }
 
-    .letraslineas {
-        font-size: 30px;
-
+    .bajarletras {
+        margin-top: 242px;
     }
+
+
+    .bajarlineas {
+        margin-bottom: 290px;
+    }
+
+    .letraslineas {
+        font-size: 25px;
+    }
+
+    .cortinasp {
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .duelasp {
+        font-size: 25px;
+        width: 100%;
+    }
+
+
+
+
+
+
 }

@@ -41,7 +41,7 @@ const Cortinas = ({ setOther }) => {
       <section className="container">
         <div className="d-flex justify-content-center ">
 
-          <h2 className="texttitulo text-wrap text-center ">De todo para Cortinas Metálicas</h2>
+          <h2 className="texttitulo text-wrap text-center tptelefono ">De todo para Cortinas Metálicas</h2>
 
         </div>
       </section>
@@ -66,9 +66,12 @@ const Cortinas = ({ setOther }) => {
 
           <div className=" w-50 d-flex align-items-center telefono-w-100 ">
             <h2 className="textodesc ">
-              Ofrecemos a distribuidores y <br></br>​mayoristas una amplia <br></br> ​variedad de
-              materiales y <br></br> ​accesorios para fabricar <br></br> ​cortinas metálicas
-              manuales y <br></br> ​motorizadas.
+              <p>Ofrecemos a distribuidores y
+                mayoristas una amplia
+                variedad de materiales y
+                accesorios para fabricar
+                cortinas metálicas manuales y
+                motorizadas.</p>
             </h2>
           </div>
         </div>
@@ -88,7 +91,7 @@ const Cortinas = ({ setOther }) => {
               />
             </figure>
             <div className="text-justify ">
-              <h3 className="text-center texto_tittfica cortinast"> Duelas de Aluminio</h3>
+              <h3 className="text-center texto_tittfica tptelefono "> Duelas de Aluminio</h3>
               <p className="cortinasp">
                 Ideal para tus clientes que buscan proyectos ​de construcción,
                 se destacan por su ​durabilidad, versatilidad y diseño
@@ -107,8 +110,8 @@ const Cortinas = ({ setOther }) => {
               />
             </figure>
             <div className="text-justify ">
-              <h3 className=" text-center texto_tittfica cortinast"> Duelas de Acero</h3>
-              <p className=" cortinasp">
+              <h3 className=" text-center texto_tittfica cortinast tptelefono "> Duelas de Acero</h3>
+              <p className=" cortinasp ">
                 Los accesos de seguridad más empleados ​en el mercado para
                 brindar protección a ​locales comerciales y empresas de tus
                 clientes.
@@ -141,7 +144,7 @@ const Cortinas = ({ setOther }) => {
 
 
           <div className=" d-flex align-items-center">
-            <p className="duelasp" >
+            <p className="duelasp " >
               Tenemos una amplia variedad de diseños ​de cortinas metálicas para
               satisfacer las ​necesidades de tus clientes.
             </p>
