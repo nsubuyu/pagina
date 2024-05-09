@@ -29,11 +29,16 @@
         text-align: center;
     }
 
+    .aling-catalogo {
+        margin-bottom: 107px;
+
+    }
+
 }
 
 
 
-@media screen and (max-width:1023px) and (min-width:768px) {
+@media screen and (min-width:768px) and (max-width:1023px) {
 
 
     .aling-catalogo {
@@ -42,6 +47,8 @@
         flex-wrap: nowrap;
         align-items: center;
         justify-content: center;
+        margin-bottom: 107px;
+
     }
 
     .cotizar {

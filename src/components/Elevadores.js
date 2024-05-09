@@ -58,7 +58,7 @@ const Elevadores = ({ setOther }) => {
                     </div>
                 </div>
 
-                <div className="container telefono">
+                <div className="container telefono spacepie">
 
                     <figure>
 
@@ -74,6 +74,14 @@ const Elevadores = ({ setOther }) => {
                 </div>
 
             </section>
+            <div className="container mb-5 " >
+                <div className=" d-flex justify-content-center ">
+                    <div className=" cotizar text-white ">
+                        <p className=" letraspie"> ¡Cotiza hoy mismo el tuyo! </p>
+                        <p className=" text-center "> 4083-1699</p>
+                    </div>
+                </div>
+            </div>
 
 
         </>
