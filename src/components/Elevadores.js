@@ -29,7 +29,7 @@ const Elevadores = ({ setOther }) => {
                 </section>
 
 
-                <div className="container d-flex gap-3 telefono">
+                <div className="container d-flex gap-3 telefono ling-elevador da-ancho">
                     <div className="imagen_terjeta">
                         <figure className="w-100 h-100">
                             <img

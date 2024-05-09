@@ -27,7 +27,7 @@ const Motores = ({ setOther }) => {
 
       <section className="my-5">
 
-        <div className="container d-flex gap-3 telefono separador">
+        <div className="container d-flex gap-3 telefono separador aling-catalogo">
           <div className=" d-flex gap-3 mb-5  telefono-reverse">
             <div className="imagen_terjeta">
               <figure className="w-100 h-100">
@@ -54,7 +54,7 @@ const Motores = ({ setOther }) => {
           </div>
         </div>
 
-        <div className="container d-flex gap-3 telefono separador">
+        <div className="container d-flex gap-3 telefono separador aling-catalogo">
 
           <div className=" w-50 d-flex align-items-center telefono-w-100">
             <div>
@@ -84,8 +84,8 @@ const Motores = ({ setOther }) => {
 
 
 
-        <div className="container d-flex gap-3 telefono  separador">
-          <div className=" d-flex gap-3 mb-5  telefono-reverse">
+        <div className="container d-flex gap-3 telefono  separador aling-catalogo">
+          <div className=" d-flex gap-3 mb-5  telefono-reverse aling-catalogo">
             <div className="imagen_terjeta">
               <figure className="w-100 h-100">
                 <img
@@ -115,7 +115,7 @@ const Motores = ({ setOther }) => {
 
 
 
-        <div className="container d-flex gap-3 telefono separador">
+        <div className="container d-flex gap-3 telefono separador aling-catalogo">
 
           <div className=" w-50 d-flex align-items-center telefono-w-100 ">
 
@@ -145,8 +145,8 @@ const Motores = ({ setOther }) => {
 
         </div>
 
-        <div className="container d-flex gap-3 telefono separador">
-          < div className="d-flex gap-3 mb-5  telefono-reverse">
+        <div className="container d-flex gap-3 telefono separador ">
+          < div className="d-flex gap-3 mb-5  telefono-reverse aling-catalogo">
             <div className="imagen_terjeta">
               <figure className="w-100 h-100">
                 <img

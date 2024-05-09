@@ -186,11 +186,43 @@
 @media screen and (min-width:1366px) {
     .marginproductos {
         margin-top: 6rem;
+
     }
+
+    .transfom {
+        padding-bottom: 0;
+        height: 1763px;
+        ;
+        background: linear-gradient(11deg, white 5%, var(--bs-light-green) 6%, var(--bs-light-green) 32%, var(--bs-dark-blue) 32%, var(--bs-dark-blue) 36%, white 36%);
+        position: absolute;
+        top: -120%;
+        z-index: -1;
+
+    }
+
+    .mwtr {
+        margin-right: -34px;
+    }
+
+    .trabajador {
+        height: 750px;
+        width: 750px;
+    }
+
+    .bajarletras {
+        margin-top: 259px;
+    }
+
+    .upcblue {
+        margin-top: -49px;
+    }
+
+
 }
 
-/* Estilos para pantallas con ancho igual o mayor a 768px */
-@media screen and (max-width: 500px)and (min-width:300px) {
+/* Estilos  767px  vista para telefono
+*/
+@media screen and (max-width: 767px) {
 
 
     .marginproductos {
@@ -286,6 +318,46 @@
         height: 4500px;
     }
 
+
+
+
+}
+
+/*------------ vista de tablet ---------*/
+
+@media screen and (min-width:768px) and (max-width:1365px) {
+
+
+    .duelas {
+        margin-top: 0px !important;
+    }
+
+    .marginproductos {
+        margin-top: 4rem;
+    }
+
+    .transfom {
+        padding-bottom: 0;
+        height: 2187px;
+        background: linear-gradient(8deg, white 5%, var(--bs-light-green) 6%, var(--bs-light-green) 31%, var(--bs-dark-blue) 32%, var(--bs-dark-blue) 36%, white 37%);
+        position: absolute;
+        top: -120%;
+        z-index: -1;
+
+    }
+
+    .tablet {
+        flex-wrap: wrap;
+    }
+
+    .trabajador {
+        height: 100%;
+        width: 100%;
+    }
+
+    .bajarletras {
+        margin-top: 278px;
+    }
 
 
 

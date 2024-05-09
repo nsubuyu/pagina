@@ -171,7 +171,7 @@ const Cortinas = ({ setOther }) => {
       <section className=" padre overflow-hidden seccionlineas ">
         <div className="transfom w-100 "></div>
 
-        <div className="container d-flex gap-3 telefono ">
+        <div className="container d-flex gap-3 telefono tablet  " id="miancho">
 
 
           <div className="d-flex align-items-center bajarletras" >
@@ -186,7 +186,7 @@ const Cortinas = ({ setOther }) => {
 
 
           <div className="contworker">
-            <figure>
+            <figure className="mwtr">
               <img
                 className="trabajador"
                 src={img8}
@@ -201,7 +201,7 @@ const Cortinas = ({ setOther }) => {
 
 
 
-      <div className="pidecotiza p-3">
+      <div className="pidecotiza p-3 upcblue">
         <h3 className="text-center textopie2 "> ¡Cotiza hoy mismo! <br></br> 4083-1699</h3>
       </div>
     </>

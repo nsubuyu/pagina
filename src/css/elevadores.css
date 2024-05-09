@@ -10,7 +10,7 @@
 }
 
 
-@media screen and (max-width: 500px)and (min-width:300px) {
+@media screen and (max-width: 767px) {
 
 
     .elevadoresp {
@@ -25,4 +25,18 @@
         text-transform: uppercase !important;
     }
 
+}
+
+@media screen and (max-width:1023px) and (min-width:768px) {
+
+
+    .ling-elevador {
+        flex-direction: column;
+
+    }
+
+    .telefono-w-100 {
+
+        width: 100% !important;
+    }
 }
