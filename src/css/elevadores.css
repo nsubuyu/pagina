@@ -8,3 +8,35 @@
 .elevadoresp {
     font-size: 30px;
 }
+
+
+@media screen and (max-width: 767px) {
+
+
+    .elevadoresp {
+        font-size: 22px;
+        width: 100%;
+    }
+
+    .etitulo {
+        font-size: 1.5em;
+        color: var(--bs-dark-blue);
+        font-weight: 700 !important;
+        text-transform: uppercase !important;
+    }
+
+}
+
+@media screen and (max-width:1023px) and (min-width:768px) {
+
+
+    .ling-elevador {
+        flex-direction: column;
+
+    }
+
+    .telefono-w-100 {
+
+        width: 100% !important;
+    }
+}
