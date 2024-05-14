@@ -12,7 +12,7 @@ const imgCarouselHome = [
     [
         carouselHome1,
         "Pimer portada",
-        <p className='text-start caption-edit float-start'>distribuidores número uno en <strong>Guatemala</strong><br></br> de materiales y accesorios para cortinas metálicas</p>
+        <p></p>
     ],
     [
         carouselHome2,

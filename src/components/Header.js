@@ -72,6 +72,9 @@ const Header = ({ varOther, setOther }) => {
                                     <li className="fw-bold">
                                         <NavLink to="/">Toldos y Sombras</NavLink>
                                     </li>
+                                    <li className="fw-bold">
+                                        <NavLink to="/rollers">Rollers de Exterior</NavLink>
+                                    </li>
                                 </ul>
                             </div>
                         </li>
@@ -106,6 +109,9 @@ const Header = ({ varOther, setOther }) => {
                                         </li>
                                         <li onClick={heandleHead} className='fw-bold py-2'>
                                             <NavLink to="/">Toldos y Sombras</NavLink>
+                                        </li>
+                                        <li onClick={heandleHead} className='fw-bold py-2'>
+                                            <NavLink to="/rollers">Rollers de Exterior</NavLink>
                                         </li>
                                     </ul>
                                 </div>

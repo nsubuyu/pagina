@@ -149,7 +149,16 @@
 }
 
 
+/*.fondosombra {
+    background-image: url(/src/img/cambn/Fondosombra.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
 
+/*.fondosombra {
+    background: rgb(244, 244, 247);
+    background: linear-gradient(0deg, rgba(244, 244, 247, 1) 0%, rgba(53, 53, 56, 1) 25%, rgba(2, 0, 36, 1) 50%, rgba(0, 0, 0, 1) 75%, rgba(237, 237, 237, 1) 100%);
+}*/
 
 
 .contworker {
@@ -183,16 +192,36 @@
     margin-top: 9rem;
 }
 
+.daralinicacio {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.soloariba {
+    margin-top: 5rem;
+}
+
 @media screen and (min-width:1366px) {
+
+
+    .daralinicacio {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    .soloariba {
+        margin-top: 5rem;
+    }
+
     .marginproductos {
         margin-top: 6rem;
 
     }
 
-    .aling-catalogo {
+    /*.aling-catalogo {
         margin-bottom: 107px;
 
-    }
+    }*/
 
     .spacepie {
         margin-bottom: 99px;

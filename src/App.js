@@ -8,6 +8,7 @@ import Header from "./components/Header";
 import Cortinas from "./components/Cortinas";
 import Motores from "./components/Motores";
 import Elevadores from "./components/Elevadores";
+import Rollers from "./components/Rollers";
 
 function App() {
   const [otherLoc, setDisplayOther] = useState(false)
@@ -22,19 +23,20 @@ function App() {
 
   return (
     <>
-      <Header varOther={otherLoc} setOther={setDisplayOther}/>
+      <Header varOther={otherLoc} setOther={setDisplayOther} />
       <Wrapper>
         <Routes>
-          <Route path="/" element={<Home setOther={setDisplayOther}/>} />
-          <Route path="/about" element={<About setOther={setDisplayOther}/>} />
-          <Route path="/cortinas" element={<Cortinas setOther={setDisplayOther}/>}/>
-          <Route path="/contact" element={<Contact setOther={setDisplayOther}/>} />
-          <Route path="/motores" element={<Motores setOther={setDisplayOther}/>}/>
-          <Route path="/elevadores" element={<Elevadores setOther={setDisplayOther}/>}/>
+          <Route path="/" element={<Home setOther={setDisplayOther} />} />
+          <Route path="/about" element={<About setOther={setDisplayOther} />} />
+          <Route path="/cortinas" element={<Cortinas setOther={setDisplayOther} />} />
+          <Route path="/contact" element={<Contact setOther={setDisplayOther} />} />
+          <Route path="/motores" element={<Motores setOther={setDisplayOther} />} />
+          <Route path="/elevadores" element={<Elevadores setOther={setDisplayOther} />} />
+          <Route path="/rollers" element={<Rollers setOther={setDisplayOther} />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Wrapper>
-      <Footer/>
+      <Footer />
     </>
   );
 }

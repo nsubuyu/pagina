@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { NavLink } from "react-router-dom";
 import portada from "../img/portadas/Motores.png";
 import img1 from "../img/cambn/10.png";
 import img2 from "../img/cambn/11.png";
@@ -25,10 +26,10 @@ const Motores = ({ setOther }) => {
 
 
 
-      <section className="my-5">
+      <section className="daralinicacio">
 
-        <div className="container d-flex gap-3 telefono separador aling-catalogo">
-          <div className=" d-flex gap-3 mb-5  telefono-reverse">
+        <div className="container d-flex gap-3 telefono separador  daralinicacio aling-catalogo">
+          <div className=" d-flex gap-3   telefono-reverse">
             <div className="imagen_terjeta">
               <figure className="w-100 h-100">
                 <img
@@ -54,7 +55,7 @@ const Motores = ({ setOther }) => {
           </div>
         </div>
 
-        <div className="container d-flex gap-3 telefono separador aling-catalogo">
+        <div className="container d-flex gap-3 telefono separador aling-catalogo daralinicacio">
 
           <div className=" w-50 d-flex align-items-center telefono-w-100">
             <div>
@@ -84,8 +85,8 @@ const Motores = ({ setOther }) => {
 
 
 
-        <div className="container d-flex gap-3 telefono  separador aling-catalogo">
-          <div className=" d-flex gap-3 mb-5  telefono-reverse aling-catalogo">
+        <div className="container d-flex gap-3 telefono  separador aling-catalogo daralinicacio">
+          <div className=" d-flex gap-3   telefono-reverse aling-catalogo">
             <div className="imagen_terjeta">
               <figure className="w-100 h-100">
                 <img
@@ -115,7 +116,7 @@ const Motores = ({ setOther }) => {
 
 
 
-        <div className="container d-flex gap-3 telefono separador aling-catalogo">
+        <div className="container d-flex gap-3 telefono separador aling-catalogo0 daralinicacio">
 
           <div className=" w-50 d-flex align-items-center telefono-w-100 ">
 
@@ -145,8 +146,8 @@ const Motores = ({ setOther }) => {
 
         </div>
 
-        <div className="container d-flex gap-3 telefono separador ">
-          < div className="d-flex gap-3 mb-5  telefono-reverse aling-catalogo">
+        <div className="container d-flex gap-3 telefono separador daralinicacio">
+          < div className="d-flex gap-3   telefono-reverse aling-catalogo">
             <div className="imagen_terjeta">
               <figure className="w-100 h-100">
                 <img
@@ -178,10 +179,12 @@ const Motores = ({ setOther }) => {
         <div className=" d-flex justify-content-center ">
           <div className=" cotizar text-white ">
             <p className=" letraspie"> ¡Cotiza hoy mismo el tuyo! </p>
-            <p className=" text-center "> 4083-1699</p>
+            <NavLink to="https://wa.me/+50240831699" rel="noopener noreferrer nofollow" target="_blank">
+              <span className=" text-center "> 4083-1699</span>
+            </NavLink>
           </div>
         </div>
-      </div>
+      </div >
     </>
   );
 };

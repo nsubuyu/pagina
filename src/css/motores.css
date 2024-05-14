@@ -15,6 +15,22 @@
     font-size: 25px;
 }
 
+.alinearmotorr {
+    margin-bottom: 192px;
+}
+
+.alinearmotornice {
+    margin-bottom: 138px;
+}
+
+.alinearroller {
+    margin-bottom: 85px;
+}
+
+.alinearrib {
+    margin-bottom: 159px;
+}
+
 @media screen and (max-width: 767px) {
 
     .cotizar {

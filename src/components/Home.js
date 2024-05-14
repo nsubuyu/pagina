@@ -1,4 +1,5 @@
 import { useEffect } from "react"
+import { NavLink } from "react-router-dom"
 import { RiArrowRightDoubleLine } from "react-icons/ri";
 import { IoIosArrowDropright } from "react-icons/io";
 import { imgCarouselHome } from "../helper/Images";
@@ -9,16 +10,17 @@ import img3 from "../img/home/accesorios.png";
 import img4 from "../img/home/elevador.png";
 import img5 from "../img/home/telas.png";
 import img6 from "../img/home/sombrillas.png";
+import img7 from "../img/cambn/18.png";
 
-const Home = ({setOther}) => {
+const Home = ({ setOther }) => {
 
     useEffect(() => {
         setOther(false)
     }, [setOther])
 
-    return(
+    return (
         <>
-            <CarouselHome content={imgCarouselHome}/>
+            <CarouselHome content={imgCarouselHome} />
 
             <section className="know-more">
                 <div className="container d-flex justify-content-center">
@@ -37,7 +39,7 @@ const Home = ({setOther}) => {
                     <div className="d-flex gap-3 flexWrapReverse">
                         <div>
                             <figure>
-                                <img className="w-100 h-100" src={img1} alt="Motores para cortinas"/>
+                                <img className="w-100 h-100" src={img1} alt="Motores para cortinas" />
                             </figure>
                         </div>
                         <div className="d-flex flex-column justify-content-center">
@@ -49,7 +51,10 @@ const Home = ({setOther}) => {
                                 <span className="arrow-round-green">
                                     <IoIosArrowDropright size={30} />
                                 </span>
-                                <span className="fw-bold">Más información</span>
+                                <NavLink to="/motores">
+                                    <span className="fw-bold">Más información </span>
+                                </NavLink>
+
                             </div>
                         </div>
                     </div>
@@ -68,12 +73,14 @@ const Home = ({setOther}) => {
                                 <span className="arrow-round-green">
                                     <IoIosArrowDropright size={30} />
                                 </span>
-                                <span className="fw-bold">Más información</span>
+                                <NavLink to="/cortinas">
+                                    <span className="fw-bold">Más información </span>
+                                </NavLink>
                             </div>
                         </div>
                         <div>
                             <figure>
-                                <img className="w-100 h-100" src={img2} alt="Duelas para cortinas"/>
+                                <img className="w-100 h-100" src={img2} alt="Duelas para cortinas" />
                             </figure>
                         </div>
                     </div>
@@ -85,7 +92,7 @@ const Home = ({setOther}) => {
                     <div className="d-flex gap-3 flexWrapReverse">
                         <div>
                             <figure>
-                                <img className="w-100 h-100" src={img3} alt="Mecanismos para rollers"/>
+                                <img className="w-100 h-100" src={img3} alt="Mecanismos para rollers" />
                             </figure>
                         </div>
                         <div className="d-flex flex-column justify-content-center">
@@ -97,7 +104,9 @@ const Home = ({setOther}) => {
                                 <span className="arrow-round-green">
                                     <IoIosArrowDropright size={30} />
                                 </span>
-                                <span className="fw-bold">Más información</span>
+                                <NavLink to="/rollers">
+                                    <span className="fw-bold">Más información </span>
+                                </NavLink>
                             </div>
                         </div>
                     </div>
@@ -116,12 +125,14 @@ const Home = ({setOther}) => {
                                 <span className="arrow-round-green">
                                     <IoIosArrowDropright size={30} />
                                 </span>
-                                <span className="fw-bold">Más información</span>
+                                <NavLink to="/elevadores">
+                                    <span className="fw-bold">Más información </span>
+                                </NavLink>
                             </div>
                         </div>
                         <div>
                             <figure>
-                                <img className="w-100 h-100" src={img4} alt="Elevadores de parqueo"/>
+                                <img className="w-100 h-100" src={img4} alt="Elevadores de parqueo" />
                             </figure>
                         </div>
                     </div>
@@ -133,7 +144,7 @@ const Home = ({setOther}) => {
                     <div className="d-flex gap-3 flexWrapReverse">
                         <div>
                             <figure>
-                                <img className="w-100 h-100" src={img5} alt="Telas Italianas"/>
+                                <img className="w-100 h-100" src={img5} alt="Telas Italianas" />
                             </figure>
                         </div>
                         <div className="d-flex flex-column justify-content-center">
@@ -145,7 +156,9 @@ const Home = ({setOther}) => {
                                 <span className="arrow-round-green">
                                     <IoIosArrowDropright size={30} />
                                 </span>
-                                <span className="fw-bold">Más información</span>
+                                <NavLink to="/">
+                                    <span className="fw-bold">Más información </span>
+                                </NavLink>
                             </div>
                         </div>
                     </div>
@@ -164,13 +177,42 @@ const Home = ({setOther}) => {
                                 <span className="arrow-round-green">
                                     <IoIosArrowDropright size={30} />
                                 </span>
-                                <span className="fw-bold">Más información</span>
+                                <NavLink to="/">
+                                    <span className="fw-bold">Más información </span>
+                                </NavLink>
                             </div>
                         </div>
                         <div>
                             <figure>
-                                <img className="w-100 h-100" src={img6} alt="Estructura de alumino para sombrillas"/>
+                                <img className="w-100 h-100" src={img6} alt="Estructura de alumino para sombrillas" />
                             </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="section-curtain-motors">
+                <div className="container">
+                    <div className="d-flex gap-3 flexWrapReverse">
+                        <div>
+                            <figure>
+                                <img className="w-100 h-100" src={img7} alt="rollers de exteriores" />
+                            </figure>
+                        </div>
+                        <div className="d-flex flex-column justify-content-center">
+                            <h2 className="text-uppercase fw-bold title-sections">ROLLERS DE INTERIOR ​Y EXTERIOR</h2>
+                            <p>
+                                Nuestros Rollers para interiores y exteriores bloquean la luz solar y, al ​mismo tiempo, permiten la entrada de luz natural en la habitación ​dependiendo el estilo de cada cortina
+                            </p>
+                            <div className="d-flex gap-1 align-items-center">
+                                <span className="arrow-round-green">
+                                    <IoIosArrowDropright size={30} />
+                                </span>
+                                <NavLink to="/rollers">
+                                    <span className="fw-bold">Más información </span>
+                                </NavLink>
+
+                            </div>
                         </div>
                     </div>
                 </div>
