@@ -179,9 +179,11 @@ const Motores = ({ setOther }) => {
         <div className=" d-flex justify-content-center ">
           <div className=" cotizar text-white ">
             <p className=" letraspie"> ¡Cotiza hoy mismo el tuyo! </p>
-            <NavLink to="https://wa.me/+50240831699" rel="noopener noreferrer nofollow" target="_blank">
-              <span className=" text-center "> 4083-1699</span>
-            </NavLink>
+            <p className=" text-center ">
+              <NavLink to="https://wa.me/+50240831699" rel="noopener noreferrer nofollow" target="_blank">
+                <span> 4083-1699</span>
+              </NavLink>
+            </p>
           </div>
         </div>
       </div >
