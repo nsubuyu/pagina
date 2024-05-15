@@ -22,9 +22,9 @@ const Home = ({ setOther }) => {
         <>
             <CarouselHome content={imgCarouselHome} />
 
-            <section className="know-more">
-                <div className="container d-flex justify-content-center">
-                    <div className="d-flex">
+            <section className="know-more" >
+                <div className="container d-flex justify-content-center overflow-hidden">
+                    <div className="d-flex" data-aos="zoom-in">
                         <span className="d-flex align-items-center fw-bold">
                             <RiArrowRightDoubleLine size={40} />
                         </span>
@@ -35,8 +35,8 @@ const Home = ({ setOther }) => {
 
 
             <section className="section-curtain-motors">
-                <div className="container">
-                    <div className="d-flex gap-3 flexWrapReverse">
+                <div className="container overflow-hidden " >
+                    <div className="d-flex gap-3 flexWrapReverse " data-aos="fade-right">
                         <div>
                             <figure>
                                 <img className="w-100 h-100" src={img1} alt="Motores para cortinas" />
@@ -62,13 +62,15 @@ const Home = ({ setOther }) => {
             </section>
 
             <section className="section-curtain-staves">
-                <div className="container">
-                    <div className="d-flex gap-3 flexWrap">
+                <div className="container overflow-hidden">
+                    <div className="d-flex gap-3 flexWrap" data-aos="fade-left">
                         <div className="d-flex flex-column justify-content-center">
                             <h2 className="text-uppercase fw-bold title-sections">duelas para cortinas</h2>
                             <p>
-                                Amplia distribución en Guatemala, El Salvador y Honduras de duelas para ​cortinas metálicas, distintos estilos y diseños para todos los gustos y ​necesidades.
-                            </p>
+                                Amplia distribución en Guatemala, El Salvador y Honduras de duelas,
+                                accesorios, cadenas, guías y chapas para cortinas metálicas.</p>
+                            <p> Distintos mod​elos y
+                                diseños para todos los gustos y necesi​dades de tus clientes. </p>
                             <div className="d-flex gap-1 align-items-center">
                                 <span className="arrow-round-green">
                                     <IoIosArrowDropright size={30} />
@@ -88,8 +90,8 @@ const Home = ({ setOther }) => {
             </section>
 
             <section className="section-rollers">
-                <div className="container">
-                    <div className="d-flex gap-3 flexWrapReverse">
+                <div className="container overflow-hidden">
+                    <div className="d-flex gap-3 flexWrapReverse" data-aos="fade-right">
                         <div>
                             <figure>
                                 <img className="w-100 h-100" src={img3} alt="Mecanismos para rollers" />
@@ -98,7 +100,9 @@ const Home = ({ setOther }) => {
                         <div className="d-flex flex-column justify-content-center">
                             <h2 className="text-uppercase fw-bold title-sections">mecanismos para rollers</h2>
                             <p>
-                                En DICET encuentras una amplia variedad de mecanismos para rollers ​interior y exterior, nos especializamos en la venta a distribuidores y ​fabricantes, hacemos envío a todo el país.
+                                En DICET encuentras una amplia variedad de mecanismos, motores, herrajes ​y
+                                accesorios para rollers interior y exterior, nos especializamos en la venta
+                                a ​distribuidores y fabricantes, hacemos envío a todo el país.
                             </p>
                             <div className="d-flex gap-1 align-items-center">
                                 <span className="arrow-round-green">
@@ -114,8 +118,8 @@ const Home = ({ setOther }) => {
             </section>
 
             <section className="section-parking-elevators">
-                <div className="container">
-                    <div className="d-flex gap-3 flexWrap">
+                <div className="container overflow-hidden">
+                    <div className="d-flex gap-3 flexWrap" data-aos="fade-left">
                         <div className="d-flex flex-column justify-content-center">
                             <h2 className="text-uppercase fw-bold title-sections">elevadores de parqueo</h2>
                             <p>
@@ -140,8 +144,8 @@ const Home = ({ setOther }) => {
             </section>
 
             <section className="section-italian-fabrics">
-                <div className="container">
-                    <div className="d-flex gap-3 flexWrapReverse">
+                <div className="container overflow-hidden">
+                    <div className="d-flex gap-3 flexWrapReverse" data-aos="fade-right">
                         <div>
                             <figure>
                                 <img className="w-100 h-100" src={img5} alt="Telas Italianas" />
@@ -150,7 +154,9 @@ const Home = ({ setOther }) => {
                         <div className="d-flex flex-column justify-content-center">
                             <h2 className="text-uppercase fw-bold title-sections">telas acrílicas 100% italianas</h2>
                             <p>
-                                Amplia variedad de estilos, texturas y diseños de telas para exteriores e ​interiores ideales para toldos, cortinas enrollables y sombrillas tales como: ​Screen, Blackout, Tipo Zebra y Sarán.
+                                Amplia variedad de estilos, texturas y diseños de telas para exteriores ​e
+                                interiores ideales para toldos y sombrillas tales
+                                como: Screen, ​Blackout, Tipo Zebra y Sarán.
                             </p>
                             <div className="d-flex gap-1 align-items-center">
                                 <span className="arrow-round-green">
@@ -166,8 +172,8 @@ const Home = ({ setOther }) => {
             </section>
 
             <section className="section-umbrella-structure">
-                <div className="container">
-                    <div className="d-flex gap-3 flexWrap">
+                <div className="container overflow-hidden">
+                    <div className="d-flex gap-3 flexWrap" data-aos="fade-left">
                         <div className="d-flex flex-column justify-content-center">
                             <h2 className="text-uppercase fw-bold title-sections">estructura de aluminio para sombrillas</h2>
                             <p>
@@ -192,8 +198,8 @@ const Home = ({ setOther }) => {
             </section>
 
             <section className="section-curtain-motors">
-                <div className="container">
-                    <div className="d-flex gap-3 flexWrapReverse">
+                <div className="container overflow-hidden">
+                    <div className="d-flex gap-3 flexWrapReverse" data-aos="fade-right">
                         <div>
                             <figure>
                                 <img className="w-100 h-100" src={img7} alt="rollers de exteriores" />

@@ -14,7 +14,8 @@ const Motores = ({ setOther }) => {
 
   return (
     <>
-      <section className="marginproductos  mb-5">
+      <section className="mb-5">
+        <div className="marginproductos"></div>
         <figure>
           <img src={portada} className=" w-100 h-100 " alt=" portada" />
 
@@ -23,13 +24,22 @@ const Motores = ({ setOther }) => {
       </section>
 
 
+      <section className=" overflow-hidden">
+        <div className="d-flex justify-content-center daralinicacio ">
+
+          <h2 className="texttitulo text-wrap text-center tptelefono " data-aos="zoom-in">Motores para la industria
+
+            de cortinas metálicas,
+
+            toldos y sombras</h2>
+
+        </div>
 
 
 
-      <section className="daralinicacio">
 
-        <div className="container d-flex gap-3 telefono separador  daralinicacio aling-catalogo">
-          <div className=" d-flex gap-3   telefono-reverse">
+        <div className="container d-flex gap-3 telefono separador  daralinicacio ">
+          <div className=" d-flex gap-3   telefono-reverse" data-aos="fade-right">
             <div className="imagen_terjeta">
               <figure className="w-100 h-100">
                 <img
@@ -55,7 +65,7 @@ const Motores = ({ setOther }) => {
           </div>
         </div>
 
-        <div className="container d-flex gap-3 telefono separador aling-catalogo daralinicacio">
+        <div className="container d-flex gap-3 telefono separador  daralinicacio" data-aos="fade-left">
 
           <div className=" w-50 d-flex align-items-center telefono-w-100">
             <div>
@@ -85,8 +95,8 @@ const Motores = ({ setOther }) => {
 
 
 
-        <div className="container d-flex gap-3 telefono  separador aling-catalogo daralinicacio">
-          <div className=" d-flex gap-3   telefono-reverse aling-catalogo">
+        <div className="container d-flex gap-3 telefono  separador  daralinicacio">
+          <div className=" d-flex gap-3   telefono-reverse " data-aos="fade-right">
             <div className="imagen_terjeta">
               <figure className="w-100 h-100">
                 <img
@@ -116,7 +126,7 @@ const Motores = ({ setOther }) => {
 
 
 
-        <div className="container d-flex gap-3 telefono separador aling-catalogo0 daralinicacio">
+        <div className="container d-flex gap-3 telefono separador  daralinicacio" data-aos="fade-left">
 
           <div className=" w-50 d-flex align-items-center telefono-w-100 ">
 
@@ -147,7 +157,7 @@ const Motores = ({ setOther }) => {
         </div>
 
         <div className="container d-flex gap-3 telefono separador daralinicacio">
-          < div className="d-flex gap-3   telefono-reverse aling-catalogo">
+          < div className="d-flex gap-3   telefono-reverse  " data-aos="fade-right">
             <div className="imagen_terjeta">
               <figure className="w-100 h-100">
                 <img
@@ -177,7 +187,7 @@ const Motores = ({ setOther }) => {
       </section >
       <div className="container mb-5 " >
         <div className=" d-flex justify-content-center ">
-          <div className=" cotizar text-white ">
+          <div className=" cotizar text-white " data-aos="zoom-in">
             <p className=" letraspie"> ¡Cotiza hoy mismo el tuyo! </p>
             <p className=" text-center ">
               <NavLink to="https://wa.me/+50240831699" rel="noopener noreferrer nofollow" target="_blank">

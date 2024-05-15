@@ -13,7 +13,9 @@ import "./css/home.css";
 import "./css/motores.css";
 import "./css/elevadores.css";
 import "./index.css";
+import "aos/dist/aos.css"
 import App from './App';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

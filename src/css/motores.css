@@ -45,9 +45,10 @@
         text-align: center;
     }
 
-    .aling-catalogo {
-        margin-bottom: 107px;
+    .motoresp {
 
+        font-size: 1rem;
+        width: 100%;
     }
 
 }

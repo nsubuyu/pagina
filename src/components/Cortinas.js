@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
+import { imgCarouselHome } from "../helper/Images";
+import Carouselcortinas from "../hooks/Caruselcortinas";
 import portada from "../img/productos/cortinas/1.png";
 import img1 from "../img/cambn/2.png";
 import img2 from "../img/cambn/prueba.png";
@@ -10,6 +12,7 @@ import img6 from "../img/cambn/6.png";
 import img7 from "../img/cambn/7.png";
 import img8 from "../img/cambn/8.png";
 import img9 from "../img/cambn/23.png";
+import { imgCarouselcortinas } from "../helper/Carruselc";
 
 
 const Cortinas = ({ setOther }) => {
@@ -32,7 +35,8 @@ const Cortinas = ({ setOther }) => {
         </div>
       </div>
 
-      <section className="marginproductos   mb-5">
+      <section className="mb-5">
+        <div className="marginproductos"></div>
         <figure>
           <img src={portada} className=" w-100 h-100 " alt=" portada" />
 
@@ -41,8 +45,9 @@ const Cortinas = ({ setOther }) => {
       </section>
 
 
-      <section className="container daralinicacio ">
-        <div className="d-flex justify-content-center ">
+      <section className="container daralinicacio  overflow-hidden">
+
+        <div className="d-flex justify-content-center " data-aos="zoom-in" >
 
           <h2 className="texttitulo text-wrap text-center tptelefono ">De todo para Cortinas Metálicas</h2>
 
@@ -57,26 +62,28 @@ const Cortinas = ({ setOther }) => {
       </section >
 
       <section className=" container ">
-        <div className=" d-flex gap-3  daralinicacio  telefono-reverse">
-          <div className="imagen_terjeta">
-            <figure className="w-100 h-100">
-              <img
-                className="w-100 h-100"
-                src={img1}
-                alt="muestra de la persiana"
-              />
-            </figure>
-          </div>
+        <div className="overflow-hidden">
+          <div className=" d-flex gap-3  daralinicacio  telefono-reverse" data-aos="fade-right">
+            <div className="imagen_terjeta">
+              <figure className="w-100 h-100">
+                <img
+                  className="w-100 h-100"
+                  src={img1}
+                  alt="muestra de la persiana"
+                />
+              </figure>
+            </div>
 
-          <div className=" w-50 d-flex align-items-center telefono-w-100 ">
+            <div className=" w-50 d-flex align-items-center telefono-w-100 ">
 
-            <p className=" cortinasp ">Ofrecemos a distribuidores y
-              mayoristas una amplia
-              variedad de materiales y
-              accesorios para fabricar
-              cortinas metálicas manuales y
-              motorizadas.</p>
+              <p className=" cortinasp ">Ofrecemos a distribuidores y
+                mayoristas una amplia
+                variedad de materiales y
+                accesorios para fabricar
+                cortinas metálicas manuales y
+                motorizadas.</p>
 
+            </div>
           </div>
         </div>
 
@@ -85,9 +92,9 @@ const Cortinas = ({ setOther }) => {
             <h3 className="texto_2  text-center tptelefono"> ¡Ofrece a tus clientes lo mejor!</h3>
           </div>
 
-          <div className="  container d-flex telefono gap-4">
+          <div className="  container d-flex telefono gap-4 overflow-hidden" >
 
-            <div className="w-50 telefono-w-100">
+            <div className="w-50 telefono-w-100" data-aos="fade-right">
               <figure>
                 <img
                   className="w-100 h-100"
@@ -106,7 +113,7 @@ const Cortinas = ({ setOther }) => {
             </div>
 
 
-            <div className="w-50 telefono-w-100">
+            <div className="w-50 telefono-w-100" data-aos="fade-left">
               <figure >
                 <img
                   className="w-100 h-100"
@@ -125,7 +132,7 @@ const Cortinas = ({ setOther }) => {
             </div>
           </div>
         </div>
-      </section>
+      </section >
 
 
 
@@ -133,10 +140,10 @@ const Cortinas = ({ setOther }) => {
 
 
       <section className="container ">
-        <div className=" container daralinicacio ">
+        <div className=" container daralinicacio overflow-hidden">
 
 
-          <div className="d-flex justify-content-center estilost">
+          <div className="d-flex justify-content-center estilost" data-aos="zoom-in" >
             <h2 className=" texto_2 tptelefono">Estilos de duelas</h2>
           </div>
 
@@ -145,12 +152,12 @@ const Cortinas = ({ setOther }) => {
 
 
 
-            <figure className=" w-100 " >
+            <figure className=" w-100 " data-aos="fade-right">
               <img className="w-100 h-100" src={img5} alt="Cortinas Métalicas" />
             </figure>
 
 
-            <div className=" d-flex align-items-center">
+            <div className=" d-flex align-items-center" data-aos="fade-left">
               <p className="duelasp " >
                 Tenemos una amplia variedad de diseños ​de cortinas metálicas para
                 satisfacer las ​necesidades de tus clientes.
@@ -160,29 +167,36 @@ const Cortinas = ({ setOther }) => {
         </div>
       </section>
 
-      <div className="container daralinicacio ">
+      <div className="container daralinicacio  overflow-hedden">
 
 
-        <figure>
+        <figure data-aos="flip-left">
           <img className="w-100 h-100" src={img6} alt="al horno" />
         </figure>
 
 
       </div>
-      <div className="container subirseñor daralinicacio ">
-        <figure>
+      <div className="container subirseñor daralinicacio overflow-hidden">
+        <figure data-aos="flip-right">
           <img className="w-100 h-100 spintando" src={img7} alt="señorpintando" />
         </figure>
       </div>
 
       <section>
-        <div className=" daralinicacio fondosombra ">
-          <div className="  daralinicacio ">
+        <div className=" daralinicacio fondosombra">
+          <div className="  daralinicacio  " data-aos="fade-up">
             <figure>
-              <img className="w-100 h-100 spintando" src={img9} alt="señorpintando" />
+              <img className="w-100 h-100 spintando" src={img9} alt="fondo sombreado" />
             </figure>
           </div>
         </div>
+      </section>
+
+      <section>
+        <div className="container daralinicacio">
+          <Carouselcortinas content={imgCarouselcortinas} />
+        </div>
+
 
 
       </section>
@@ -228,15 +242,18 @@ const Cortinas = ({ setOther }) => {
 
 
 
-      <div className="pidecotiza p-3 upcblue">
+      <div className="pidecotiza p-3 upcblue" >
+        <div className="" data-aos="zoom-in">
 
-        <h3 className="text-center textopie2 "> ¡Cotiza hoy mismo! <br></br>
-          <NavLink to="https://wa.me/+50240831699" rel="noopener noreferrer nofollow" target="_blank">
-            <span> 4083-1699</span>
-          </NavLink>
-        </h3>
+          <h3 className="text-center textopie2 "> ¡Cotiza hoy mismo! <br></br>
+            <NavLink to="https://wa.me/+50240831699" rel="noopener noreferrer nofollow" target="_blank">
+              <span> 4083-1699</span>
+            </NavLink>
+          </h3>
+        </div>
 
-      </div>
+      </div >
+
     </>
   );
 };

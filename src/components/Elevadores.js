@@ -14,23 +14,24 @@ const Elevadores = ({ setOther }) => {
     return (
         <>
 
-            <section className="marginproductos mb-5 ">
+            <section className="mb-5 ">
+                <div className="marginproductos"></div>
                 <figure>
                     <img src={portada} className=" w-100 h-100 " alt=" portada" />
 
                 </figure>
 
             </section>
-            <section className="container">
+            <section className="container overflow-hidden">
 
                 <section className="container  daralinicacio">
-                    <div className=" container text-center">
+                    <div className=" container text-center" data-aos="zoom-in">
                         <h2 className="etitulo alinearletraselevador my-3">ELEVADORES DE PARQUEO</h2>
                     </div>
 
 
 
-                    <div className="container d-flex gap-3 telefono ling-elevador da-ancho">
+                    <div className="container d-flex gap-3 telefono ling-elevador da-ancho" data-aos="fade-right">
                         <div className="imagen_terjeta">
                             <figure className="w-100 h-100">
                                 <img
@@ -42,7 +43,7 @@ const Elevadores = ({ setOther }) => {
                         </div>
 
                         <div className="w-50 d-flex align-items-center telefono-w-100">
-                            <div>
+                            <div >
 
                                 <p className=" elevadoresp">
                                     Se ofrecen 2 espacios de ​estacionamiento en un ​espacio existente,
@@ -79,7 +80,7 @@ const Elevadores = ({ setOther }) => {
             </section>
             <div className="container mb-5 " >
                 <div className=" d-flex justify-content-center ">
-                    <div className=" cotizar text-white ">
+                    <div className=" cotizar text-white " data-aos="zoom-in">
                         <p className=" letraspie"> ¡Cotiza hoy mismo el tuyo! </p>
                         <p className=" text-center ">
                             <NavLink to="https://wa.me/+50240831699" rel="noopener noreferrer nofollow" target="_blank">
