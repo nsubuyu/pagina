@@ -7,7 +7,7 @@ import img2 from "../img/cambn/17.png"
 const Elevadores = ({ setOther }) => {
 
     useEffect(() => {
-        setOther(true);
+        setOther(false);
     }, [setOther]);
 
 
@@ -15,7 +15,7 @@ const Elevadores = ({ setOther }) => {
         <>
 
             <section className="mb-5 ">
-                <div className="marginproductos"></div>
+
                 <figure>
                     <img src={portada} className=" w-100 h-100 " alt=" portada" />
 
@@ -78,17 +78,16 @@ const Elevadores = ({ setOther }) => {
                 </div>
 
             </section>
-            <div className="container mb-5 " >
-                <div className=" d-flex justify-content-center ">
-                    <div className=" cotizar text-white " data-aos="zoom-in">
-                        <p className=" letraspie"> ¡Cotiza hoy mismo el tuyo! </p>
-                        <p className=" text-center ">
-                            <NavLink to="https://wa.me/+50240831699" rel="noopener noreferrer nofollow" target="_blank">
-                                <span> 4083-1699</span>
-                            </NavLink>
-                        </p>
-                    </div>
+            <div className="pidecotiza p-3 upcblue" >
+                <div className="" data-aos="zoom-in">
+
+                    <h3 className="text-center textopie2 "> ¡Cotiza hoy mismo! <br></br>
+                        <NavLink to="https://wa.me/+50240831699" rel="noopener noreferrer nofollow" target="_blank">
+                            <span> 4083-1699</span>
+                        </NavLink>
+                    </h3>
                 </div>
+
             </div >
 
 

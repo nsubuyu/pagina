@@ -25,7 +25,7 @@ const imgCarouselHome = [
     [
         carouselHome4,
         "Cuarta portada",
-        "Some representative placeholder content for the cuatro slide."
+
     ],
     /*[
         carouselHome5,

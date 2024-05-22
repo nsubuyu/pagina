@@ -17,7 +17,7 @@ import { imgCarouselcortinas } from "../helper/Carruselc";
 
 const Cortinas = ({ setOther }) => {
   useEffect(() => {
-    setOther(true);
+    setOther(false);
   }, [setOther]);
 
   return (
@@ -36,7 +36,7 @@ const Cortinas = ({ setOther }) => {
       </div>
 
       <section className="mb-5">
-        <div className="marginproductos"></div>
+
         <figure>
           <img src={portada} className=" w-100 h-100 " alt=" portada" />
 

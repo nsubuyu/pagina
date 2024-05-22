@@ -1,13 +1,13 @@
 import { useEffect } from "react"
 import img1 from '../img/about/about.png';
 
-const About = ({setOther}) => {
+const About = ({ setOther }) => {
 
     useEffect(() => {
         setOther(true)
     }, [setOther])
 
-    return(
+    return (
         <section className='marginTop mb-5 section-about'>
             <div className="container">
                 <div className='mb-3 m-auto containter-title-about'>
@@ -15,13 +15,13 @@ const About = ({setOther}) => {
                 </div>
                 <div className='d-flex justify-content-center container-description-about'>
                     <div className='description-about'>
-                        <p className='mb-4'>
+                        <p className='mb-4 motoresp'>
                             Nos especializamos en venta a <br></br>
                             integradores de cortinas metálicas, <br></br>
                             instaladores de toldos, talleres de tapizado <br></br>
                             de muebles y proveedores de rollers.
                         </p>
-                        <p>
+                        <p className=" motoresp" >
                             Distribuimos en Guatemala las marcas <br></br>
                             más reconocidas del mercado, con la <br></br>
                             experiencia, servicio y garantía que sólo <br></br>
@@ -30,7 +30,7 @@ const About = ({setOther}) => {
                     </div>
                     <div className='container-img-about'>
                         <figure>
-                            <img src={img1} alt='Nosotros'/>
+                            <img src={img1} alt='Nosotros' />
                         </figure>
                     </div>
                 </div>
