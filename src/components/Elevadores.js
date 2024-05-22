@@ -14,7 +14,7 @@ const Elevadores = ({ setOther }) => {
     return (
         <>
 
-            <section className="mb-5 ">
+            <section className="mb-3 ">
 
                 <figure>
                     <img src={portada} className=" w-100 h-100 " alt=" portada" />
@@ -25,7 +25,7 @@ const Elevadores = ({ setOther }) => {
             <section className="container overflow-hidden">
 
                 <section className="container  daralinicacio">
-                    <div className=" container text-center" data-aos="zoom-in">
+                    <div className=" container text-center mb-4" data-aos="zoom-in">
                         <h2 className="etitulo alinearletraselevador my-3">ELEVADORES DE PARQUEO</h2>
                     </div>
 

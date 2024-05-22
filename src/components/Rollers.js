@@ -28,7 +28,7 @@ const Rollers = ({ setOther }) => {
 
 
             <section className="container daralinicacio overflow-hidden">
-                <div className="d-flex justify-content-center bajartt " data-aos="zoom-in">
+                <div className="d-flex justify-content-center mb-3 " data-aos="zoom-in">
 
                     <h2 className="texttitulo text-wrap text-start tptelefono my-3 ">ROLLERS DE EXTERIOR</h2>
 

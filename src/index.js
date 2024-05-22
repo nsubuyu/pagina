@@ -14,6 +14,7 @@ import "./css/motores.css";
 import "./css/elevadores.css";
 import "./index.css";
 import "aos/dist/aos.css"
+import "./css/nuevo_pie.css";
 import App from './App';
 
 

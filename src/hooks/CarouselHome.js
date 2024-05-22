@@ -41,7 +41,7 @@ const CarouselHome = ({ content }) => {
                                         </div>
                                         <div className={`d-flex ${key % 2 !== 0 ? "flex-row-reverse text-end" : "text-start"}`}>
                                             <span className="contact-caption">
-                                                <span><IoMdArrowDropright size={40} /></span>
+
 
                                             </span>
                                         </div>

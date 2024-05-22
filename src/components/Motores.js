@@ -25,8 +25,7 @@ const Motores = ({ setOther }) => {
 
 
       <section className=" overflow-hidden">
-        <div className="d-flex justify-content-center daralinicacio ">
-
+        <div className="d-flex justify-content-center mb-4 ">
           <h2 className="texttitulo text-wrap text-center tptelefono " data-aos="zoom-in">Motores para la industria
 
             de cortinas metálicas,
