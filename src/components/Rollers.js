@@ -6,181 +6,170 @@ import img2 from "../img/cambn/18.png";
 import img3 from "../img/cambn/19.png";
 import img4 from "../img/cambn/21.png";
 
-
 const Rollers = ({ setOther }) => {
-    useEffect(() => {
-        setOther(false);
-    }, [setOther]);
+  useEffect(() => {
+    setOther(false);
+  }, [setOther]);
 
-    return (
-        <>
-            <section>
+  return (
+    <>
+      <section>
+        <figure>
+          <img src={portada} className=" w-100 h-100 " alt=" portada" />
+        </figure>
+      </section>
 
-                <figure>
-                    <img src={portada} className=" w-100 h-100 " alt=" portada" />
+      <section className="container daralinicacio overflow-hidden">
+        <div className="d-flex justify-content-center mb-3 " data-aos="zoom-in">
+          <h2 className="texttitulo text-wrap text-start tptelefono my-3 ">
+            ROLLERS DE INTERIOR Y EXTERIOR
+          </h2>
+        </div>
 
-                </figure>
+        <div className="container d-flex gap-3 telefono separador daralinicacio overflow-hidden ">
+          <div
+            className=" d-flex gap-3   telefono-reverse "
+            data-aos="fade-right"
+          >
+            <div className="imagen_terjeta">
+              <figure className="w-100 h-100">
+                <img
+                  className="w-100 h-100"
+                  src={img1}
+                  alt="Cortinas Métalicas"
+                />
+              </figure>
+            </div>
 
-            </section>
+            <div className=" w-50 d-flex align-items-center telefono-w-100">
+              <div>
+                <h2 className="text-start texto_tittfica  tptelefono ">
+                  Rollers de PVC
+                </h2>
+                <p className=" cortinasp ">
+                  Ofrece transparencia y protección ​en entornos de baja
+                  temperatura o ​expuestos a condiciones climáticas
+                  ​desfavorables.
+                </p>
+                <p className=" cortinasp ">
+                  Pueden adquirirse con sistema ​manual o motorizado.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <div className="overflow-hidden">
+          <div
+            className="container d-flex gap-3 telefono separador  daralinicacio"
+            data-aos="fade-left"
+          >
+            <div className=" w-50 d-flex align-items-center telefono-w-100">
+              <div>
+                <h2 className="text-start texto_tittfica tptelefono">
+                  Rollers tipo Zebra
+                </h2>
+                <p className=" cortinasp ">
+                  Es una combinación de telas ​transparentes y opacas dispuestas
+                  de ​manera intercalada a lo largo de la ​cortina, lo que
+                  permite ajustar entre ​transparencia y privacidad según sea
+                  necesario. Se pueden encontrar con ​mecanismo manual y
+                  motorizado.
+                </p>
+              </div>
+            </div>
 
+            <div className="imagen_terjeta">
+              <figure className="w-100 h-100">
+                <img
+                  className="w-100 h-100"
+                  src={img2}
+                  alt="Cortinas Métalicas"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
 
+        <div className="container d-flex gap-3 telefono  separador  daralinicacio overflow-hidden">
+          <div
+            className=" d-flex gap-3   telefono-reverse  "
+            data-aos="fade-right"
+          >
+            <div className="imagen_terjeta">
+              <figure className="w-100 h-100">
+                <img
+                  className="w-100 h-100"
+                  src={img3}
+                  alt="Cortinas Métalicas"
+                />
+              </figure>
+            </div>
 
+            <div className=" w-50 d-flex align-items-center telefono-w-100  ">
+              <div>
+                <h2 className="text-start texto_tittfica tptelefono">
+                  Roller tipo black out
+                </h2>
+                <p className=" cortinasp  ">
+                  Proporciona total privacidad en ​cualquier ambiente, siendo
+                  ideal ​para dormitorios, salas de ​proyección y espacios que
+                  necesiten ​discreción máxima.
+                </p>
+                <p className=" cortinasp  ">
+                  Se encuentran disponibles con ​sistema manual y motorizado.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-            <section className="container daralinicacio overflow-hidden">
-                <div className="d-flex justify-content-center mb-3 " data-aos="zoom-in">
+        <div className="overflow-hidden">
+          <div
+            className="container d-flex gap-3 telefono separador  "
+            data-aos="fade-left"
+          >
+            <div className=" w-50 d-flex align-items-center telefono-w-100 ">
+              <div>
+                <h2 className="text-start texto_tittfica tptelefono">
+                  Roller tipo screen
+                </h2>
+                <p className="  cortinasp ">
+                  Permite el contacto visual con el ​exterior y la entrada de
+                  luz natural sin que esto signifique una pérdida de la
+                  ​privacidad, también disminuye el ​calor.
+                </p>
+                <p className="  cortinasp ">
+                  Disponibles con mecanismo manual y motorizado.
+                </p>
+              </div>
+            </div>
+            <div className="imagen_terjeta">
+              <figure className="w-100 h-100">
+                <img className="w-100 h-100" src={img4} alt="screen" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
 
-                    <h2 className="texttitulo text-wrap text-start tptelefono my-3 ">ROLLERS DE EXTERIOR</h2>
-
-                </div>
-
-                <div className="container d-flex gap-3 telefono separador daralinicacio overflow-hidden ">
-                    <div className=" d-flex gap-3   telefono-reverse " data-aos="fade-right">
-                        <div className="imagen_terjeta">
-                            <figure className="w-100 h-100">
-                                <img
-                                    className="w-100 h-100"
-                                    src={img1}
-                                    alt="Cortinas Métalicas"
-                                />
-                            </figure>
-                        </div>
-
-
-                        <div className=" w-50 d-flex align-items-center telefono-w-100">
-                            <div>
-                                <h2 className='text-start texto_tittfica  tptelefono '>
-                                    Rollers de PVC
-                                </h2>
-                                <p className=" cortinasp ">
-                                    Ofrece transparencia y protección ​en entornos de baja temperatura
-                                    o ​expuestos a condiciones climáticas ​desfavorables.
-                                </p>
-                                <p className=" cortinasp ">
-                                    Pueden adquirirse con sistema ​manual o motorizado.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="overflow-hidden">
-                    <div className="container d-flex gap-3 telefono separador  daralinicacio" data-aos="fade-left">
-
-                        <div className=" w-50 d-flex align-items-center telefono-w-100">
-                            <div>
-                                <h2 className='text-start texto_tittfica tptelefono'>
-                                    Rollers tipo Zebra
-                                </h2>
-                                <p className=" cortinasp ">
-                                    Es una combinación de telas ​transparentes y opacas dispuestas
-                                    de ​manera intercalada a lo largo de la ​cortina, lo que permite
-                                    ajustar entre ​transparencia y privacidad según sea
-                                    necesario. Se pueden encontrar con ​mecanismo manual y motorizado.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="imagen_terjeta">
-                            <figure className="w-100 h-100">
-                                <img
-                                    className="w-100 h-100"
-                                    src={img2}
-                                    alt="Cortinas Métalicas"
-                                />
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-                <div className="container d-flex gap-3 telefono  separador  daralinicacio overflow-hidden">
-                    <div className=" d-flex gap-3   telefono-reverse  " data-aos="fade-right">
-                        <div className="imagen_terjeta">
-                            <figure className="w-100 h-100">
-                                <img
-                                    className="w-100 h-100"
-                                    src={img3}
-                                    alt="Cortinas Métalicas"
-                                />
-                            </figure>
-                        </div>
-
-
-                        <div className=" w-50 d-flex align-items-center telefono-w-100  ">
-                            <div>
-                                <h2 className='text-start texto_tittfica tptelefono'>
-                                    Roller tipo black out
-                                </h2 >
-                                <p className=" cortinasp  ">
-                                    Proporciona total privacidad en ​cualquier ambiente, siendo ideal ​para dormitorios,
-                                    salas de ​proyección y espacios que necesiten ​discreción máxima.
-                                </p>
-                                <p className=" cortinasp  ">
-                                    Se encuentran disponibles con ​sistema manual y motorizado.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="overflow-hidden">
-                    <div className="container d-flex gap-3 telefono separador  " data-aos="fade-left">
-
-                        <div className=" w-50 d-flex align-items-center telefono-w-100 ">
-
-                            <div>
-                                <h2 className='text-start texto_tittfica tptelefono'>
-                                    Roller tipo screen
-                                </h2>
-                                <p className="  cortinasp ">
-                                    Permite el contacto visual con el ​exterior y la entrada de luz natural sin
-                                    que esto signifique una pérdida de la ​privacidad, también disminuye el ​calor.
-                                </p>
-                                <p className="  cortinasp ">
-                                    Disponibles con mecanismo
-                                    manual y motorizado.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="imagen_terjeta">
-                            <figure className="w-100 h-100">
-                                <img
-                                    className="w-100 h-100"
-                                    src={img4}
-                                    alt="screen"
-                                />
-                            </figure>
-                        </div>
-
-
-
-
-                    </div>
-                </div>
-
-
-
-
-
-            </section >
-
-            <div className="pidecotiza p-3 upcblue" >
-                <div className="" data-aos="zoom-in">
-
-                    <h3 className="text-center textopie2 "> ¡Cotiza hoy mismo! <br></br>
-                        <NavLink to="https://wa.me/+50240831699" rel="noopener noreferrer nofollow" target="_blank">
-                            <span> 4083-1699</span>
-                        </NavLink>
-                    </h3>
-                </div>
-
-            </div >
-        </>
-    );
+      <div className="pidecotiza p-3 upcblue">
+        <div className="" data-aos="zoom-in">
+          <h3 className="text-center textopie2 ">
+            {" "}
+            ¡Cotiza hoy mismo! <br></br>
+            <NavLink
+              to="https://wa.me/+50240831699"
+              rel="noopener noreferrer nofollow"
+              target="_blank"
+            >
+              <span> 4083-1699</span>
+            </NavLink>
+          </h3>
+        </div>
+      </div>
+    </>
+  );
 };
 
 export default Rollers;

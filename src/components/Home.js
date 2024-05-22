@@ -12,6 +12,7 @@ import img5 from "../img/home/telas.png";
 import img6 from "../img/home/sombrillas.png";
 import img7 from "../img/cambn/18.png";
 import img8 from "../img/logo1.png";
+import img9 from "../img/cambn/forma 1.png";
 
 const Home = ({ setOther }) => {
   useEffect(() => {
@@ -274,44 +275,60 @@ const Home = ({ setOther }) => {
       </section>
 
       <section>
-        <div className="nuevo_pie">
-          <div className="titulo_targeta">
+        <div>
+          <div className="titulo_tarjeta container imagenlogo">
+            <figure>
+              <img className="w-100 h-100" src={img9} alt="logo" />
+            </figure>
+          </div>
+        </div>
+        <div className="nuevo_pie ">
+          <div className="titulo_tarjeta container imagenlogo">
             <figure>
               <img className="w-100 h-100" src={img8} alt="logo" />
             </figure>
           </div>
-          <div className="columnas">
-            <div className="colum">
-              <h2> Redes Sociales</h2>
-              <h4> Redes Sociales</h4>
+
+          <div className="container d-flex gap-5 justify-content-center">
+            <div className="">
+              <div>
+                <h2> Redes Sociales</h2>
+              </div>
+              <div>
+                <h4> Redes Sociales</h4>
+              </div>
               <ul>
-                <li>dicet_gt</li>
-                <li>/DICETtudistribuidora</li>
+                <p>dicet_gt</p>
+                <p>/DICETtudistribuidora</p>
               </ul>
             </div>
-            <div className="colum">
-              <h2>Servicios</h2>
-              <ul>
-                <li> Cortinas Metalicas</li>
-                <li>Acsesorios para Cortinas Metalicas</li>
-                <li>Motores</li>
-                <li>Elevadores de Parqueo</li>
-                <li>Toldos y Sombras</li>
-              </ul>
+
+            <div className="">
+              <div>
+                <h2>Servicios</h2>
+              </div>
+
+              <p> Cortinas Metalicas</p>
+              <p>Acsesorios para Cortinas Metalicas</p>
+              <p>Motores</p>
+              <p>Elevadores de Parqueo</p>
+              <p>Toldos y Sombras</p>
             </div>
-            <div className="colum">
-              <h2>Contactanos</h2>
-              <h4> Ubicaciones</h4>
-              <ul>
-                <li>
-                  9a. av. 2-94 Zona 2 de Mixco Colonia Alvarado, ​Guatemala
-                </li>
-                <li> 17 calle 22-74 Zona 10, Colonia Alcázar, Guatemala</li>
-                <li>
-                  7a. av. D3-38B Zona 5, Ofibodegas Los Altos No.12,
-                  Quetzaltenango
-                </li>
-              </ul>
+
+            <div className="">
+              <div>
+                <h2>Contactanos</h2>
+              </div>
+              <div>
+                <h4> Ubicaciones</h4>
+              </div>
+
+              <p>9a. av. 2-94 Zona 2 de Mixco Colonia Alvarado, ​Guatemala</p>
+              <p> 17 calle 22-74 Zona 10, Colonia Alcázar, Guatemala</p>
+              <p>
+                7a. av. D3-38B Zona 5, Ofibodegas Los Altos No.12,
+                Quetzaltenango
+              </p>
             </div>
           </div>
         </div>

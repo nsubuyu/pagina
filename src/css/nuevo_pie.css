@@ -1,19 +1,21 @@
 .nuevo_pie {
-    height: 500px;
+    
     background: #f004;
-}
-
-.columnas {
     display: flex;
-    width: 80%;
-    max-width: 1200px;
-    justify-content: space-between;
+    flex-direction: column;
+    padding: 18px;
 }
 
-.colum {
-    flex: 1;
-    margin: 0 10px;
-    padding: 20px;
-    background-color: #f4f4f4;
-    text-align: center;
+
+
+
+
+.titulo_tarjeta{
+    display: flex;
+    align-items: center;
+    
+}
+
+.imagenlogo{
+    width: 35rem;
 }
